@@ -7,7 +7,7 @@
 .home::before {
   display: block;
   content: '';
-  background: url('../../assets/images/dogbanner.jpg') no-repeat center center;
+  background: url('/src/assets/Images/dogbanner.jpg') no-repeat center center;
   background-size: cover;
 }
 
