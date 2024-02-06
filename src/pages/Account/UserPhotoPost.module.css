@@ -1,0 +1,43 @@
+.photoPost {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 0 34px;
+}
+
+@media (max-width: 40rem) {
+  .photoPost {
+    grid-template-columns: 1fr;
+  }
+
+  .photoPost form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.file {
+  margin: 1.5rem 0;
+  color: #eee;
+}
+
+.preview {
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.preview::after {
+  content: '';
+  display: block;
+  height: 0px;
+  padding-bottom: 100%;
+}
+
+.photoPost button {
+  background: #eee;
+}

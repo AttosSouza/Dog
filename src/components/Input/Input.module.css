@@ -1,0 +1,55 @@
+.wrapper {
+  margin-top: 38px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.4rem;
+  background: #151515;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  border-color: #1F1F1F;
+  background: #1F1F1F;
+  box-shadow: 0 0 0 3px #fea;
+}
+
+.label {
+  display: block;
+  font-size: 18px;
+  line-height: 1;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
+.error {
+  font-size: 14px !important;
+  line-height: 1.2rem;
+  margin-top: 1rem;
+  max-width: 350px;
+  color: red !important;
+}
+
+@media (max-width: 40rem) {
+  .input {
+    width: 280px;
+  }
+
+  .error {
+    font-size: 14px !important;
+    line-height: 1.2rem;
+    margin-top: 1rem;
+    max-width: 275px;
+    color: red !important;
+  }
+}
+
+

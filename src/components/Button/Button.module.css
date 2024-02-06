@@ -1,0 +1,24 @@
+.customButton {
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 8px;
+  background: #D6A354;
+  cursor:pointer;
+}
+
+
+.customButton:hover,
+.customButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #fea, 0 0 0 4px #fb1;
+}
+
+
+@media (max-width: 40rem) {
+  .customButton {
+    width: 280px;
+  }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+  background: #1F1F1F;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+}
+
+.title {
+  font-family: var(--type-second);
+  line-height: 1;
+  font-size: 3rem;
+  position: relative;
+  z-index: 1;
+  color: #eee;
+}
+
+@media (max-width: 40rem) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
+
