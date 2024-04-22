@@ -4,9 +4,9 @@
 
 ## Introdução
 
-Este é um projeto web full stack, um projeto simples mas com várias funcionalidades legais.
+Dog é uma rede social para cachorros, desenvolvida para praticar as habilidades com React.js.
 
-Dog é um projeto web da plataforma origamid no qual eu acabei dando uma refatorada no design da aplicação, desenvolvido para praticar as habilidades com React.js, CSS modules, Context, consumo de REST APIs, Hooks, React Router e propriedades.
+A aplicação possui integração com REST APIs, uso de Context Api, React Hooks e React Router.
 
 O site é projetado para ser responsivo em dispositivos móveis, garantindo uma visualização e usabilidade ótimas em diferentes aparelhos.
 
@@ -29,9 +29,9 @@ Link do projeto: [Dogs](https://dog-phi.vercel.app/)
 
 ## Introduction 
 
-This is a full stack web project, a simple project but with several cool features.
+Dog is a social network for dogs, developed to practice React.js skills.
 
-Dog is a web project from the origamid platform where I ended up refactoring the design of the application, developed to practice the skills with React.js, CSS modules, Context, consumption of REST APIs, Hooks, React Router and properties.
+The application integrates with REST APIs, Context Api, React Hooks and React Router.
 
 The website is designed to be responsive on mobile devices, ensuring optimal viewing and usability on different devices.
 
